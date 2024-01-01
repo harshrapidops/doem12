@@ -1,0 +1,161 @@
+{
+    "associatedModules": [
+        {
+            "level": 2,
+            "id": 5,
+            "modulePrefix": "contact.company"
+        },
+        {
+            "level": 3,
+            "id": 5,
+            "modulePrefix": "contact.company.companyMultipleLookupCustomField2",
+            "fieldName": "companyMultipleLookupCustomField2"
+        }
+    ],
+    "uiObject": [
+        {
+            "type": "link",
+            "source": {
+                "id": "e2f5b542-b7b7-4ad2-b43f-99da53a7984d",
+                "port": "in"
+            },
+            "target": {
+                "id": "0eac27ed-c6c0-4980-94ce-4b61a6457875",
+                "port": "out"
+            },
+            "manhattan": true,
+            "rounded": true,
+            "interactive": false,
+            "id": "a05c9c96-d405-43e8-9709-7b10b2fdaead",
+            "z": -1
+        },
+        {
+            "type": "link",
+            "source": {
+                "id": "e1233e35-6695-4a13-a88f-0987b21dd2fb",
+                "port": "in"
+            },
+            "target": {
+                "id": "e2f5b542-b7b7-4ad2-b43f-99da53a7984d",
+                "port": "out"
+            },
+            "manhattan": true,
+            "rounded": true,
+            "interactive": false,
+            "id": "19ee87b2-b943-4369-b5ec-1345b473087b",
+            "z": 0
+        },
+        {
+            "type": "report-card",
+            "size": {
+                "width": 300,
+                "height": 100
+            },
+            "inPorts": [
+                "in"
+            ],
+            "outPorts": [
+                "out"
+            ],
+            "inputPortMarkup": "<circle cx=\"152\" cy=\"141\" r=\"0\" fill=\"transparent\" class=\"member-button-circle\" magnet=\"passive\"></circle>",
+            "position": {
+                "x": 539.5,
+                "y": 50
+            },
+            "angle": 0,
+            "markup": "<g class=\"rotatable\">\n                        <rect class=\"card\" x=\"2\" y=\"-15\" width=\"300\" height=\"170\" rx=\"8\" fill=\"transparent\"></rect>\n                        <rect class=\"card\" x=\"2\" y=\"24\" width=\"300\" height=\"117\" rx=\"8\" fill = '#FFFFFF'/>\n                        <circle  r=\"20\" cx=\"150\" cy=\"20\" fill=\"#3B82F6\"></circle>\n                        <g class=\"card-icon\" transform=\"translate(143.5,14)\">\n                            <path d=\"M12.3125 13.375V13.975C12.6439 13.975 12.9125 13.7064 12.9125 13.375H12.3125ZM1.6875 13.375H1.0875C1.0875 13.7064 1.35613 13.975 1.6875 13.975L1.6875 13.375ZM9.66923 4.025C9.66923 5.59379 8.45221 6.825 7 6.825V8.025C9.15888 8.025 10.8692 6.21174 10.8692 4.025H9.66923ZM7 6.825C5.54779 6.825 4.33077 5.59379 4.33077 4.025H3.13077C3.13077 6.21174 4.84112 8.025 7 8.025V6.825ZM4.33077 4.025C4.33077 2.45621 5.54779 1.225 7 1.225V0.025C4.84112 0.025 3.13077 1.83826 3.13077 4.025H4.33077ZM7 1.225C8.45221 1.225 9.66923 2.45621 9.66923 4.025H10.8692C10.8692 1.83826 9.15888 0.025 7 0.025V1.225ZM2.2875 12.95C2.2875 10.515 4.59425 8.45 7 8.45V7.25C4.01152 7.25 1.0875 9.77499 1.0875 12.95H2.2875ZM7 8.45C9.40575 8.45 11.7125 10.515 11.7125 12.95H12.9125C12.9125 9.77499 9.98848 7.25 7 7.25V8.45ZM11.7125 12.95V13.375H12.9125V12.95H11.7125ZM12.3125 12.775H1.6875V13.975H12.3125V12.775ZM2.2875 13.375V12.95H1.0875V13.375H2.2875Z\" fill=\"currentColor\"/>\n                        </g>\n                        <g class=\"delete-icon hide\" cursor =\"pointer\" fill = \"#F3F4F6\" data-tooltip=\"Delete\" data-tooltip-position=\"top\">\n                        <path d=\"M285.335 19.5869L285.378 29.6734C285.335 29.8836 285.121 30.0937 284.906 30.0937H277.171C276.957 30.0937 276.699 29.9256 276.699 29.6734L276.742 19.5869\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <path d=\"M280.996 27.5719V22.1084\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <path d=\"M278.849 27.5719V22.1084\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <path d=\"M283.144 27.5719V22.1084\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <path d=\"M275.844 19.5869H286.156\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <path d=\"M279.281 19.1671V18.7468C279.281 18.2845 279.667 17.9062 280.14 17.9062H281.859C282.332 17.9062 282.718 18.2845 282.718 18.7468V19.1671\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <circle class=\"remove-circle\" cx=\"281\" cy = \"24\" r=\"12.5\" fill=\"transparent\" stroke=\"#E0E2E7\"/>\n                   </g>\n                        <g class=\"member-title\" y=\"55\" >\n                        </g>\n                        <g class=\"member-button\" data-tooltip=\"Join with other modules.\" data-tooltip-position=\"top\">\n                                    <circle cx=\"152\" cy=\"141\" r=\"10\" fill=\"#22C55E\" class=\"member-button-circle\"/>\n                                    <path d=\"M152 136V146M147 141H157\" stroke=\"white\" stroke-width=\"1.5\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                                </g>\n                        </g>",
+            "id": "e1233e35-6695-4a13-a88f-0987b21dd2fb",
+            "z": 1,
+            "dynamicPorts": [
+                {
+                    "source": {
+                        "id": "e1233e35-6695-4a13-a88f-0987b21dd2fb"
+                    },
+                    "target": {
+                        "id": "e2f5b542-b7b7-4ad2-b43f-99da53a7984d"
+                    }
+                }
+            ],
+            "attrs": {
+                "data": {
+                    "moduleId": 1,
+                    "isPrimary": true,
+                    "moduleName": "contact",
+                    "level": 1
+                }
+            }
+        },
+        {
+            "type": "report-card",
+            "size": {
+                "width": 300,
+                "height": 100
+            },
+            "inPorts": [
+                "in"
+            ],
+            "outPorts": [
+                "out"
+            ],
+            "inputPortMarkup": "<circle cx=\"152\" cy=\"141\" r=\"0\" fill=\"transparent\" class=\"member-button-circle\" magnet=\"passive\"></circle>",
+            "position": {
+                "x": 539.5,
+                "y": 250
+            },
+            "angle": 0,
+            "markup": "<g class=\"rotatable\">\n                        <rect class=\"card\" x=\"2\" y=\"-15\" width=\"300\" height=\"170\" rx=\"8\" fill=\"transparent\"></rect>\n                        <rect class=\"card\" x=\"2\" y=\"24\" width=\"300\" height=\"117\" rx=\"8\" fill = '#FFFFFF'/>\n                        <circle  r=\"20\" cx=\"150\" cy=\"20\" fill=\"#2E0DF2\"></circle>\n                        <g class=\"card-icon\" transform=\"translate(143.5,14)\">\n                            <path d=\"M4.875 12.3125H9.125V13.375H4.875V12.3125Z\" fill=\"currentColor\"/><path d=\"M1.6875 1.6875C1.6875 1.1007 2.1632 0.625 2.75 0.625H11.25C11.8368 0.625 12.3125 1.1007 12.3125 1.6875V12.3125C12.3125 12.8993 11.8368 13.375 11.25 13.375H2.75C2.1632 13.375 1.6875 12.8993 1.6875 12.3125V1.6875Z\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M4.78746 3.59979H5.23017V4.02479H4.78746V3.59979Z\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M4.78746 6.15021H5.23017V6.57521H4.78746V6.15021Z\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M4.78746 8.69958H5.23017V9.12459H4.78746V8.69958Z\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M4.875 12.3125H9.125V13.375H4.875V12.3125Z\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M8.77184 3.59979H9.21454V4.02479H8.77184V3.59979Z\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M8.77184 6.15021H9.21454V6.57521H8.77184V6.15021Z\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M8.77184 8.69958H9.21454V9.12459H8.77184V8.69958Z\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/>\n                        </g>\n                        <g class=\"delete-icon\" cursor =\"pointer\" fill = \"#F3F4F6\" data-tooltip=\"Delete\" data-tooltip-position=\"top\">\n                        <path d=\"M285.335 19.5869L285.378 29.6734C285.335 29.8836 285.121 30.0937 284.906 30.0937H277.171C276.957 30.0937 276.699 29.9256 276.699 29.6734L276.742 19.5869\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <path d=\"M280.996 27.5719V22.1084\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <path d=\"M278.849 27.5719V22.1084\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <path d=\"M283.144 27.5719V22.1084\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <path d=\"M275.844 19.5869H286.156\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <path d=\"M279.281 19.1671V18.7468C279.281 18.2845 279.667 17.9062 280.14 17.9062H281.859C282.332 17.9062 282.718 18.2845 282.718 18.7468V19.1671\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <circle class=\"remove-circle\" cx=\"281\" cy = \"24\" r=\"12.5\" fill=\"transparent\" stroke=\"#E0E2E7\"/>\n                   </g>\n                        <g class=\"member-title\" y=\"55\" >\n                        </g>\n                        <g class=\"member-button\" data-tooltip=\"Join with other modules.\" data-tooltip-position=\"top\">\n                                    <circle cx=\"152\" cy=\"141\" r=\"10\" fill=\"#22C55E\" class=\"member-button-circle\"/>\n                                    <path d=\"M152 136V146M147 141H157\" stroke=\"white\" stroke-width=\"1.5\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                                </g>\n                        </g>",
+            "id": "e2f5b542-b7b7-4ad2-b43f-99da53a7984d",
+            "z": 2
+        },
+        {
+            "type": "report-card",
+            "size": {
+                "width": 300,
+                "height": 100
+            },
+       
+            "inPorts": [
+                "in"
+            ],
+            "outPorts": [
+                "out"
+            ],
+            "inputPortMarkup": "<circle cx=\"152\" cy=\"141\" r=\"0\" fill=\"transparent\" class=\"member-button-circle\" magnet=\"passive\"></circle>",
+            "position": {
+                "x": 539.5,
+                "y": 450
+            },
+            "angle": 0,
+            "markup": "<g class=\"rotatable\">\n                        <rect class=\"card\" x=\"2\" y=\"-15\" width=\"300\" height=\"170\" rx=\"8\" fill=\"transparent\"></rect>\n                        <rect class=\"card\" x=\"2\" y=\"24\" width=\"300\" height=\"117\" rx=\"8\" fill = '#FFFFFF'/>\n                        <circle  r=\"20\" cx=\"150\" cy=\"20\" fill=\"#15F290\"></circle>\n                        <g class=\"card-icon\" transform=\"translate(143.5,14)\">\n                            <path d=\"M4.875 12.3125H9.125V13.375H4.875V12.3125Z\" fill=\"currentColor\"/><path d=\"M1.6875 1.6875C1.6875 1.1007 2.1632 0.625 2.75 0.625H11.25C11.8368 0.625 12.3125 1.1007 12.3125 1.6875V12.3125C12.3125 12.8993 11.8368 13.375 11.25 13.375H2.75C2.1632 13.375 1.6875 12.8993 1.6875 12.3125V1.6875Z\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M4.78746 3.59979H5.23017V4.02479H4.78746V3.59979Z\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M4.78746 6.15021H5.23017V6.57521H4.78746V6.15021Z\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M4.78746 8.69958H5.23017V9.12459H4.78746V8.69958Z\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M4.875 12.3125H9.125V13.375H4.875V12.3125Z\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M8.77184 3.59979H9.21454V4.02479H8.77184V3.59979Z\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M8.77184 6.15021H9.21454V6.57521H8.77184V6.15021Z\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M8.77184 8.69958H9.21454V9.12459H8.77184V8.69958Z\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/>\n                        </g>\n                        <g class=\"delete-icon\" cursor =\"pointer\" fill = \"#F3F4F6\" data-tooltip=\"Delete\" data-tooltip-position=\"top\">\n                        <path d=\"M285.335 19.5869L285.378 29.6734C285.335 29.8836 285.121 30.0937 284.906 30.0937H277.171C276.957 30.0937 276.699 29.9256 276.699 29.6734L276.742 19.5869\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <path d=\"M280.996 27.5719V22.1084\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <path d=\"M278.849 27.5719V22.1084\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <path d=\"M283.144 27.5719V22.1084\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <path d=\"M275.844 19.5869H286.156\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <path d=\"M279.281 19.1671V18.7468C279.281 18.2845 279.667 17.9062 280.14 17.9062H281.859C282.332 17.9062 282.718 18.2845 282.718 18.7468V19.1671\" stroke=\"#6B7280\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                        <circle class=\"remove-circle\" cx=\"281\" cy = \"24\" r=\"12.5\" fill=\"transparent\" stroke=\"#E0E2E7\"/>\n                   </g>\n                        <g class=\"member-title\" y=\"55\" >\n                        </g>\n                        <g class=\"member-button\" data-tooltip=\"Join with other modules.\" data-tooltip-position=\"top\">\n                                    <circle cx=\"152\" cy=\"141\" r=\"10\" fill=\"#22C55E\" class=\"member-button-circle\"/>\n                                    <path d=\"M152 136V146M147 141H157\" stroke=\"white\" stroke-width=\"1.5\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n                                </g>\n                        </g>",
+            "id": "0eac27ed-c6c0-4980-94ce-4b61a6457875",
+            "z": 3
+        }
+    ],
+    "fieldsToQuery": [
+        "contact.id",
+        "contact.name",
+        "contact.type",
+        "contact.createdAt"
+    ],
+
+    "displaying": [
+        "contact.id",
+        "contact.name",
+        "contact.type",
+        "contact.createdAt"
+    ],
+    "gridType": "unsummarized_grid",
+    "renderAs": "grid",
+    "dateDimensionField": "contact.createdAt",
+    "dateDimensionDefaultValue": {
+        "days": "",
+        "from": "2023-09-21T18:30:00.000Z",
+        "range": "LAST_90_DAYS",
+        "to": "2023-12-19T18:30:00.000Z"
+    },
+    "mainModuleId": 1,
+    "name": "dj",
+    "reportFolderId": "7eb2c314-db07-42ee-a2d5-1afe906b7743",
+    "description": "sdj",
+    "isInfoFormValid": true
+}
